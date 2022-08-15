@@ -1,0 +1,53 @@
+.header {
+    background-color: #ffffff;
+    font-size: 1.4rem;
+    line-height: 20px;
+}
+
+.header__container {
+    font-size: 1.4rem;
+    line-height: 20px;
+    margin: 0 -15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__container-logo {
+    font-size: 1.4rem;
+    line-height: 20px;
+    padding: 0 15px;
+}
+
+.header__container-logo--img {
+    width: 150px;
+    height: 90px;
+}
+
+.header__container-nav {
+    font-size: 1.4rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    line-height: 20px;
+    padding: 0 15px;
+}
+
+.nav li {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav li a {
+    color: var(--text-color);
+    font-size: 2rem;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.header__container-search {
+
+}
+
+.header__container-cart {
+
+}

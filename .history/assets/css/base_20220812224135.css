@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* HACK */
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --white-color : #fff;
+    --black-color : #000;
+    --text-color : #4a4a4a;
+    --border-color : #dbdbdb;
+}
+
+@-webkit-keyframes slider_animation {
+    20% {margin-left: 0;}
+    30% {margin-left: -100%;}
+    40% {margin-left: -100%;}
+    50% {margin-left: -200%;}
+    60% {margin-left: -200%;}
+    70% {margin-left: -300%;}
+    80% {margin-left: -300%;}
+    90% {margin-left: -400%;}
+    100% {margin-left: -400%;}
+}
